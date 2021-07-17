@@ -4,12 +4,19 @@
   "description": "Webpack Setup with React",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack serve",
+    "watch": "webpack --watch",
+    "build": "webpack"
   },
   "keywords": [
     "webpack",
     "react"
   ],
   "author": "Yasir",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^5.45.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
 }
