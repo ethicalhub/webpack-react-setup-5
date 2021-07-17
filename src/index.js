@@ -1,6 +1,7 @@
 const data = [
-    "Cool", "Wool", "Fool"
+    "Cool", "Wool", "Fool", "Bool"
 ]
 
+const newData = [...data, "shoot"]
 
-console.log(data)
+console.log(data, newData)
